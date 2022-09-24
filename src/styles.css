@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/11067709/pexels-photo-11067709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 20vh;
+}
+.ind {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  position: absolute;
+  top: 0%;
+  overflow-y: scroll;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 90, 121, 1) 41%,
+    rgba(51, 196, 230, 1) 85%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.imgg {
+  margin: 20px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.imgg:hover {
+  border-radius: 10px;
+  margin: 16px;
+}
+.card {
+  width: 1000px;
+  border: 2px solid black;
+  color: white;
+  font-weight: 700;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(83, 103, 111, 1) 41%,
+    rgba(51, 196, 230, 1) 85%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.abc {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.front {
+  margin-left: 100px;
+}
+.fl {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.msg {
+  color: red;
+}
+.search {
+  background-color: lightgray;
+  margin-top: 50px;
+  padding: 10px;
+}
