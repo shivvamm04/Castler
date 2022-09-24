@@ -16,7 +16,6 @@ export default function App() {
       .get("https://reqres.in/api/users/")
       .then((res) => {
         arr.push(...res.data.data);
-        console.log(res.data);
       })
       .catch((err) => {
         console.log(err);
@@ -26,7 +25,6 @@ export default function App() {
       .then((res) => {
         arr.push(...res.data.data);
         setData(arr);
-        console.log(res.data);
       })
       .catch((err) => {
         console.log(err);
